@@ -1,0 +1,211 @@
+.img-fluid {
+    width: 100%;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+#banner {
+    background-color: #87ceeb;
+    background-image: url(../images/web1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#banner .row {
+    height: 700px;
+    justify-content: center;
+    align-items: center;
+}
+
+#banner h1 {
+    color: rgb(9, 15, 15); /* Change la couleur du texte */
+    font-size: 3em; /* Ajuste la taille de la police */
+    text-align: center; /* Centre le texte */
+    margin: 20px 0; /* Ajoute une marge au-dessus et en dessous */
+    background-color: rgba(255, 255, 255, 0.7); /* Fond blanc avec 70% d'opacité */
+    padding: 10px; /* Ajoute un peu d'espace autour du texte */
+    border-radius: 50px; /* Arrondit les angles */
+}
+header .logo {
+    width: 50px;
+}
+
+section p {
+    color: gray;
+}
+
+section > p {
+    color: #222;
+}
+
+h2 + p {
+    font-style: italic;
+}
+
+h2 ~ p {
+    font-family: helvetica;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+aside .row {
+    flex-wrap: wrap;
+}
+
+aside .row div {
+    width: 50%;
+}
+header .row,
+footer .row {
+    justify-content: space-between;
+    background-color: cadetblue;
+}
+
+article {
+    width: 70%;
+}
+
+aside {
+    width: 30%;
+}
+
+main > .row {
+    margin: 40px 150px;
+}
+
+main section {
+    padding: 20px;
+}
+
+footer .logo img {
+}
+footer .row div {
+    padding: 40px;
+}
+
+header .row {
+    padding: 20px;
+}
+
+header .social span {
+    font-family: helvetica;
+    font-weight: bold;
+    color: cadetblue;
+    padding: 5px;
+    background-color: #fff;
+    font-size: 18px;
+    border-radius: 3px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px 40px;
+    color: #fff;
+    font-family: helvetica;
+    font-variant: small-caps;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    background-color: #fff;
+    color: cadetblue;
+    border-radius: 5px;
+}
+section h2 {
+    font-weight: lighter;
+    font-size: 35px;
+    color: cadetblue;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+section p {
+    font-size: 16px;
+}
+
+section table {
+    width: 100%;
+    border: 1px solid silver;
+    border-colllapse: collapse;
+}
+
+section table td,
+section table th {
+    text-align: center;
+    border: 1px solid silver;
+    padding: 5px 10px;
+    font-size: 16px;
+}
+
+aside div ul {
+    list-style-type: none;
+    margin: 30px 0 50px 0;
+    padding: 0;
+}
+
+aside div ul li a {
+    display: block;
+    text-decoration: none;
+    color: #222;
+    font-size: 20px;
+    padding: 10px 20px;
+    background-color: #fafafa;
+    border-top: 1px solid rgb(230, 230, 230);
+    text-shadow: 1px 1px 1px #999;
+}
+hr {
+    border-color: silver;
+}
+
+aside ul li a:hover {
+    background-color: #fff;
+}
+
+aside h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+footer h3 {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+}
+
+footer ul {
+    margin: 0;
+}
+
+footer ul li a,
+footer ul li {
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    list-style-type: none;
+}
+
+footer ul li {
+    line-height: 2;
+}
+
+#copyright {
+    text-align: center;
+    font-variant: small-caps;
+    background-color: #fafafa;
+}

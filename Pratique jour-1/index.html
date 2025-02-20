@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Formation-Web</title>
+        <link rel="shortcut icon" href="images/logo.png" type="image/ x-icon" />
+        <link rel="stylesheet" href="css/style.css" />
+        <style>
+            p {
+                text-transform: capitalize;
+            }
+            #banner {
+                position: relative;
+                overflow : hidden;
+                animation : slide 20s infinite; /* Durée totale = 10s * 3 images */
+            }
+    
+            h1 {
+                position: absolute;
+                top: 50%; /* Centrer verticalement */
+                left: 50%; /* Centrer horizontalement */
+                transform: translate(-50%, -50%); /* Ajuste le positionnement */
+                z-index: 1; /* Assurez-vous que le texte est au-dessus de l'arrière-plan */
+            } 
+    
+            @keyframes slide {
+                0% { background-image: url('images/web2.png'); }
+                33.33% { background-image: url('images/web1.png'); }
+                66.66% { background-image: url('images/web.png'); }
+                100% { background-image: url('images/web1.png'); }
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <div class="row">
+                <div class="logo">
+                    <img
+                        src="images/logo1.jpg"
+                        alt="logo"
+                        style="border-radius: 100px"
+                    />
+                </div>
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="index.html">Accueil</a>
+                        </li>
+                        <li>
+                            <a href="about.html">A propos</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="social">
+                    <span>f</span>
+                    <span>x</span>
+                    <span>ln</span>
+                </div>
+            </div>
+        </header>
+        <main>
+            <div id="banner">
+                <div class="row">
+                    <h1>Formation-Web</h1>
+                </div>
+            </div>
+            <div class="row">
+                <article>
+                    <section>
+                        <h2>Les technologies front-end</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Vero debitis numquam iste ratione nam, animi
+                            reiciendis blanditiis, harum dicta voluptatum sint
+                            dolor mollitia illum alias hic consectetur est error
+                            vel!
+                        </p>
+                        <p>
+                            Lorem ipsum dolor sit amet consectetur adipisicing
+                            elit. Aspernatur corporis aperiam perspiciatis ipsum
+                            tempora aut temporibus vel ipsam optio. Repudiandae
+                            reprehenderit tempore optio nam libero perspiciatis
+                            modi est quod quis!
+                        </p>
+                        <div>
+                            <p>
+                                Lorem ipsum dolor sit, amet consectetur
+                                adipisicing elit. Perspiciatis laboriosam nisi,
+                                tempora temporibus quae tenetur, maiores iusto
+                                animi illum impedit odio magnam, sapiente quo
+                                molestiae ab atque veniam minus accusantium.
+                            </p>
+                            <p>
+                                Maiores minus illo porro explicabo eaque magnam
+                                voluptatum provident repudiandae et. Architecto,
+                                delectus sequi. Dolores culpa, soluta vel
+                                voluptatum, a cumque architecto ipsam recusandae
+                                minima fuga dolore cupiditate iusto aspernatur!
+                            </p>
+                        </div>
+                    </section>
+                    <section>
+                        <h2>Les technologies back-end</h2>
+                        <div>
+                            <p>
+                                Lorem ipsum dolor sit, amet consectetur
+                                adipisicing elit. Perspiciatis laboriosam nisi,
+                                tempora temporibus quae tenetur, maiores iusto
+                                animi illum impedit odio magnam, sapiente quo
+                                molestiae ab atque veniam minus accusantium.
+                            </p>
+                            <p>
+                                Maiores minus illo porro explicabo eaque magnam
+                                voluptatum provident repudiandae et. Architecto,
+                                delectus sequi. Dolores culpa, soluta vel
+                                voluptatum, a cumque architecto ipsam recusandae
+                                minima fuga dolore cupiditate iusto aspernatur!
+                            </p>
+                        </div>
+                    </section>
+                    <section>
+                        <h2>Les Librairies et Frameworks</h2>
+                        <div>
+                            <table>
+                                <thead>
+                                    <tr>
+                                        <th>Numero</th>
+                                        <th>Item</th>
+                                        <th>Langage</th>
+                                        <th>Dernière version</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Bootstrap</td>
+                                        <td>Css</td>
+                                        <td>12</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>Laravel</td>
+                                        <td>Php</td>
+                                        <td>7</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>Adonis</td>
+                                        <td>JavaScript</td>
+                                        <td>4</td>
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td>Django</td>
+                                        <td>Python</td>
+                                        <td>6</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </section>
+                </article>
+                <aside>
+                    <h3>Catégories</h3>
+                    <div>
+                        <ul>
+                            <li><a href="#">Front-end</a></li>
+                            <li><a href="#">Back-end</a></li>
+                            <li><a href="#">Librairies</a></li>
+                            <li><a href="#">Frameworks</a></li>
+                        </ul>
+                    </div>
+                    <hr />
+                    <div class="row">
+                        <div>
+                            <img
+                                src="images/aside4.jpg"
+                                class="img-fluid"
+                                alt=""
+                            />
+                        </div>
+                        <div>
+                            <img
+                                src="images/aside4.jpg"
+                                class="img-fluid"
+                                alt=""
+                            />
+                        </div>
+                        <div>
+                            <img
+                                src="images/aside1.jpg"
+                                class="img-fluid"
+                                alt=""
+                            />
+                        </div>
+                        <div>
+                            <img
+                                src="images/aside1.jpg"
+                                class="img-fluid"
+                                alt=""
+                            />
+                        </div>
+                        <div>
+                            <img
+                                src="images/aside5.jpg"
+                                class="img-fluid"
+                                alt=""
+                            />
+                        </div>
+                        <div>
+                            <img
+                                src="images/aside6.jpg"
+                                class="img-fluid"
+                                alt=""
+                            />
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </main>
+        <footer>
+            <div class="row">
+                <div class="logo">
+                    <img
+                        src="images/logo1.jpg"
+                        alt="logo"
+                        style="border-radius: 100px"
+                    />
+                </div>
+                <div>
+                    <h3>Pages</h3>
+                    <ul>
+                        <li>
+                            <a href="index.html">Accueil</a>
+                        </li>
+                        <li>
+                            <a href="about.html">A propos</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Contact</h3>
+                    <ul>
+                        <li>
+                            <a href="tel: +243970051485">Téléphone</a>
+                        </li>
+                        <li>
+                            <a href="mailto:lomelajedidya@gmail.com">Email</a>
+                        </li>
+                        <li>
+                            <a href="contact.html">Adresse</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div id="copyright">
+                <p>copyright 2025, all right reserved</p>
+            </div>
+        </footer>
+
+        <script src="js/object.js"></script>
+    </body>
+</html>
